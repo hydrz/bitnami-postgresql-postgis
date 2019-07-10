@@ -3,7 +3,7 @@ LABEL maintainer "hydrz <n.haoyuan@gmail.com>"
 
 USER 0
 
-ENV POSTGIS_VERSION=3.0.0alpha3
+ENV POSTGIS_VERSION=2.5.2
 
 # Install postgis postgresql extension
 RUN install_packages wget build-essential libxml2-dev libgeos-dev libproj-dev libgdal-dev \
