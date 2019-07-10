@@ -1,4 +1,4 @@
-FROM bitnami/postgresql:11.4
+FROM bitnami/postgresql:11.4.0
 LABEL maintainer "hydrz <n.haoyuan@gmail.com>"
 
 USER 0
